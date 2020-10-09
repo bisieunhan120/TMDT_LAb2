@@ -1,0 +1,14 @@
+﻿@model IEnumerable<TMDT_Lab2.Models.New>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@foreach (var item in Model)
+{
+    <ul>
+        <li>
+            <p>@item.Description</p>
+        </li>
+    </ul>
+}
